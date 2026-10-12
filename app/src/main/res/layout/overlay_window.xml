@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#1e293b"
+    android:padding="12dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WWII Storm Overlay"
+        android:textStyle="bold"
+        android:textColor="#f8fafc"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editOverlayTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Coordinate name"
+        android:textColor="#f8fafc"
+        android:textColorHint="#94a3b8"
+        android:backgroundTint="#60a5fa" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/editOverlayX"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="X"
+            android:inputType="numberSigned"
+            android:textColor="#f8fafc"
+            android:textColorHint="#94a3b8"
+            android:backgroundTint="#60a5fa" />
+
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="1dp" />
+
+        <EditText
+            android:id="@+id/editOverlayY"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Y"
+            android:inputType="numberSigned"
+            android:textColor="#f8fafc"
+            android:textColorHint="#94a3b8"
+            android:backgroundTint="#60a5fa" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editOverlayNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Notes"
+        android:textColor="#f8fafc"
+        android:textColorHint="#94a3b8"
+        android:backgroundTint="#60a5fa" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnRecordOverlay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Save" />
+
+        <Space
+            android:layout_width="8dp"
+            android:layout_height="1dp" />
+
+        <Button
+            android:id="@+id/btnCloseOverlay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Close" />
+    </LinearLayout>
+</LinearLayout>

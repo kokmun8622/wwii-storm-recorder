@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Wanshi Interactive - WWII Storm</string>
+    <string name="save_record">Save coordinate</string>
+    <string name="title_hint">Coordinate name</string>
+    <string name="x_hint">X</string>
+    <string name="y_hint">Y</string>
+    <string name="map_hint">Map / Zone</string>
+    <string name="note_hint">Notes</string>
+    <string name="open_overlay">Open floating window</string>
+    <string name="export_csv">Export CSV</string>
+    <string name="export_excel">Export Excel</string>
+    <string name="history">Saved coordinates</string>
+    <string name="delete">Delete</string>
+</resources>

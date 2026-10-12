@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.WWIIStorm" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1d3557</item>
+        <item name="colorPrimaryVariant">#163150</item>
+        <item name="colorSecondary">#e63946</item>
+        <item name="android:statusBarColor">#0f172a</item>
+        <item name="android:navigationBarColor">#0f172a</item>
+    </style>
+</resources>
